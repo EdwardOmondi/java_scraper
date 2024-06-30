@@ -1,4 +1,4 @@
-# Stratalis Web Scraper Test By Edward Omondi
+# Web Scraper Test By Edward Omondi
 
 This is my submission for the agent that extracts all the mayors listed for every region on the https://www.mon-maire.fr/maires-regions website using java
 The  output file is the `scraper.csv` file in the root directory of the project.
@@ -21,7 +21,7 @@ The  following variables can be changed in the `Main.java` file
 3. `pageLimiter` - The number of pages per region to extract the mayors from. The default value is 10.
 
 ## Running the project
-1. Unzip the project folder
+1. Unzip the project folder or clone the repository
 2. Open the terminal and navigate to the project folder
 3. Run the command `./mvnw clean install package` or `./mvnw.cmd clean install package` to install the dependencies and build the project 
 4. Run the command `./mvnw exec:java` or `./mvnw.cmd exec:java` to run the project
